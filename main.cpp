@@ -32,6 +32,19 @@ struct Mario
 
 };
 
+struct Barrier
+{
+    int x;
+    int y;
+
+    void draw()
+    {
+       txSetColor(TX_BLACK);
+       txSetFillColor(TX_RED);
+       txRectangle(x, y, x+20, y+50);
+    }
+};
+
 int main()
 {
 txCreateWindow (800, 600);
@@ -46,10 +59,21 @@ mario_bot[2] = {300, 150, 7, mario.image, mario.image_l, mario.image_r, 0, 0};
 mario_bot[3] = {400, 100, 5, mario.image, mario.image_l, mario.image_r, 0, 0};
 mario_bot[4] = {500, 50, 10, mario.image, mario.image_l, mario.image_r, 0, 0};
 
+Barrier bar[2];
+bar[0] = {200, 50};
+bar[1]= {600, 50};
+
     while(!GetAsyncKeyState(VK_ESCAPE))
     {
+
+       txSetFillColor(TX_WHITE);
         txClear();
         txBegin();
+
+        for(int i=0; i<2; i++)
+        {
+            bar[i].draw();
+        }
 
         //Гл. герой
         mario.draw();
@@ -67,7 +91,7 @@ mario_bot[4] = {500, 50, 10, mario.image, mario.image_l, mario.image_r, 0, 0};
         }
 
         //Боты
-        for (int i=0; i<5; i++)
+        for (int i=0; i<4; i++)
         {
             mario_bot[i].draw();
 
@@ -75,7 +99,7 @@ mario_bot[4] = {500, 50, 10, mario.image, mario.image_l, mario.image_r, 0, 0};
 
             mario_bot[i].x += mario_bot[i].vx;
 
-            if (mario_bot[i].x>800-84)
+            if (mario_bot[i].x>800-84 )
             {
                 mario_bot[i].vx = -mario_bot[i].vx;
                 mario_bot[i].image = mario_bot[i].image_l;
@@ -85,6 +109,20 @@ mario_bot[4] = {500, 50, 10, mario.image, mario.image_l, mario.image_r, 0, 0};
                 mario_bot[i].vx = -mario_bot[i].vx;
                 mario_bot[i].image = mario_bot[i].image_r;
             }
+        }
+
+        mario_bot[4].draw();
+        mario_bot[4].animation();
+        mario_bot[4].x += mario_bot[4].vx;
+        if(mario_bot[4].x+87>bar[1].x)
+        {
+            mario_bot[4].vx = -mario_bot[4].vx;
+            mario_bot[4].image = mario_bot[4].image_l;
+        }
+        if(mario_bot[4].x<bar[0].x+20)
+        {
+            mario_bot[4].vx = -mario_bot[4].vx;
+            mario_bot[4].image = mario_bot[4].image_r;
         }
 
         txEnd();

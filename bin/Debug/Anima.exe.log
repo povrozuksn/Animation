@@ -1,0 +1,234 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {504, 0, 588, 107} не полностью лежит внутри изображения-источника {0, 0, 504, 428}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x4B28 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00417523 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: txTransparentBlt() at c:/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041D363 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: main() at C:/Users/root/source/repos/Anima/main.cpp (15):
+
+     13:         txBegin();
+     14: 
+=>   15:         txTransparentBlt(txDC(), 100, 300, 84, 107, image, 84*6, 0, TX_WHITE);
+     16: 
+     17:         txEnd();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Dec 10 2024 18:34:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 10 2024 18:34:46
+
+Run file:	C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe
+Directory:	C:\Users\root\source\repos\Anima
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {504, 0, 588, 107} не полностью лежит внутри изображения-источника {0, 0, 504, 428}, функция txTransparentBlt() работать не будет.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x4B28 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00417523 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: txTransparentBlt() at c:/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041D363 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: main() at C:/Users/root/source/repos/Anima/main.cpp (15):
+
+     13:         txBegin();
+     14: 
+=>   15:         txTransparentBlt(txDC(), 100, 300, 84, 107, image, 84*6, 0, TX_WHITE);
+     16: 
+     17:         txEnd();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Dec 10 2024 18:34:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 10 2024 18:34:46
+
+Run file:	C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe
+Directory:	C:\Users\root\source\repos\Anima
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {504, 0, 588, 107} не полностью лежит внутри изображения-источника {0, 0, 504, 428}, функция txTransparentBlt() работать не будет.
+
+#3: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x4B28 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00417523 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: txTransparentBlt() at c:/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041D363 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: main() at C:/Users/root/source/repos/Anima/main.cpp (15):
+
+     13:         txBegin();
+     14: 
+=>   15:         txTransparentBlt(txDC(), 100, 300, 84, 107, image, 84*6, 0, TX_WHITE);
+     16: 
+     17:         txEnd();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Dec 10 2024 18:34:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 10 2024 18:34:46
+
+Run file:	C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe
+Directory:	C:\Users\root\source\repos\Anima
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {504, 0, 588, 107} не полностью лежит внутри изображения-источника {0, 0, 504, 428}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x12D8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00417523 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: txTransparentBlt() at c:/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041D376 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: main() at C:/Users/root/source/repos/Anima/main.cpp (16):
+
+     14:         txBegin();
+     15: 
+=>   16:         txTransparentBlt(txDC(), 100, 300, 84, 107, image, 84*n_cadr, 0, TX_WHITE);
+     17:         n_cadr += 1;
+     18: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Dec 10 2024 18:37:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 10 2024 18:37:49
+
+Run file:	C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe
+Directory:	C:\Users\root\source\repos\Anima
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {588, 0, 672, 107} не полностью лежит внутри изображения-источника {0, 0, 504, 428}, функция txTransparentBlt() работать не будет.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x12D8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00417523 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: txTransparentBlt() at c:/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041D376 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: main() at C:/Users/root/source/repos/Anima/main.cpp (16):
+
+     14:         txBegin();
+     15: 
+=>   16:         txTransparentBlt(txDC(), 100, 300, 84, 107, image, 84*n_cadr, 0, TX_WHITE);
+     17:         n_cadr += 1;
+     18: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Dec 10 2024 18:37:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 10 2024 18:37:49
+
+Run file:	C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe
+Directory:	C:\Users\root\source\repos\Anima
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13678, функция: bool {anonymous}::TX::txTransparentBlt(HDC, double, double, double, double, HDC, double, double, COLORREF),
+
+Сообщение: Прямоугольник копируемой области {0, 428, 84, 535} не полностью лежит внутри изображения-источника {0, 0, 504, 428}, функция txTransparentBlt() работать не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x14B8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00417523 in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: txTransparentBlt() at c:/codeblocks/mingw/include/txlib.h (13678)
+
+# 1 0x0041D38D in C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe: main() at C:/Users/root/source/repos/Anima/main.cpp (17):
+
+     15:         txBegin();
+     16: 
+=>   17:         txTransparentBlt(txDC(), 100, 300, 84, 107, image, 84*x_cadr, 107*y_cadr, TX_WHITE);
+     18:         x_cadr += 1;
+     19:         if (x_cadr >= 5)
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Dec 10 2024 18:46:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 10 2024 18:46:16
+
+Run file:	C:\Users\root\source\repos\Anima\bin\Debug\Anima.exe
+Directory:	C:\Users\root\source\repos\Anima
+
+--------------------------------------------------
